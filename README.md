@@ -6,7 +6,7 @@
 ### Project Title
 Explore US Bikeshare Data
 
-![Bikeshare Image](https://drive.google.com/file/d/1CE2qfCXup25DuOXsCSD10f6YwxSLffxZ/view?usp=sharing)
+![Bikeshare Image](https://drive.google.com/uc?export=view&id=1CE2qfCXup25DuOXsCSD10f6YwxSLffxZ)
 
 ### Description
 This web app will assist you in uncovering bike share usage patterns, using data provided by Motivate, a bike share system provider for many major cities in the United States \nYou will be able to compare the system usage between three large cities: Chicago, New York City, and Washington
@@ -18,4 +18,5 @@ This web app will assist you in uncovering bike share usage patterns, using data
 
 ### Credits
 [Motivate]https://www.motivateco.com/
+
 [Google]https://google.com
