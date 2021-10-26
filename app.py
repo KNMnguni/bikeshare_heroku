@@ -1,11 +1,16 @@
-import pywebio
+from pywebio import start_server
 from pywebio.input import actions, input, NUMBER
 from pywebio.output import put_error, put_info, put_text, put_html, put_markdown, put_table
+from pywebio.platform.flask import webio_view
+import argparse
+from flask import Flask
 import webbrowser
 import time
 import pandas as pd
 import datetime
 import os
+
+app = Flask(__name__)
 
 current_directory = os.getcwd()
 print('## Current working directory: ', current_directory)
@@ -349,5 +354,13 @@ def main():
             raise SystemExit
 
 
+app.add_url_rule('/tool', 'webio_view', webio_view(main),
+                 methods=['GET', 'POST', 'OPTIONS'])
+
+
 if __name__ == "__main__":
-    pywebio.start_server(main, port=80)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("-p", "--port", type=int, default=8080)
+    args = parser.parse_args()
+
+    start_server(main, port=args.port)
