@@ -17,6 +17,6 @@ This web app will assist you in uncovering bike share usage patterns, using data
 * washington.csv
 
 ### Credits
-[Motivate]https://www.motivateco.com/
+[Motivate](https://www.motivateco.com/)
 
-[Google]https://google.com
+[Google](https://google.com)
