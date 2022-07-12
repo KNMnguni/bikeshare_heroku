@@ -1,5 +1,8 @@
 >**Note**: This **repository** was created as part of the Explanatory Data Analysis web app for the US Bikeshare data by  **Motivate**. The web app deployment was done using **Flask and Heroku**. The **code** presented in this repository is **KNMnguni's** deployment of the web app.  
 
+### Access Web Application
+[Click here](https://edabikeshare.herokuapp.com/) to access the Bikeshare EDA app
+
 ### Date created
 13/09/2021 
 
